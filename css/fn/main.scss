@@ -1,0 +1,75 @@
+main {
+	width: 1220px;
+	margin: 5em $Centrado $vacio $Centrado!important;
+	overflow: hidden;
+	.ml__Header--Product {
+		margin: 1rem + 1rem 0;
+		.title {
+			font-weight: 400;
+		}
+	}	
+
+
+	.ml__Section--Image {
+		width: 35%;
+		float: left;
+		.figure__Content .figure__Content--Img {
+			width: 100%;
+		}
+	}
+	.ml__aside--Details {
+		width: 60%;
+		float: right;
+		.ml__aside--Details--Primary {
+
+			.Details__Prince {
+				font-size: 40px;
+			}
+			.Details__Price .title--Price {
+				font-size: 2rem;
+				color: $mlPrice;
+			}
+			.Details__Buy {
+				margin: 2em 0 0 0;
+				.Details__Buy--Contents:first-child, .Details__Buy--Contents:nth-child(2) {
+					width: 20%;
+					margin: 0 0 1em 0;
+					.Contents--Iz {
+						float: left;
+					}
+					.Contents--De {
+						float: right;
+						select {
+
+						}
+					}
+				}
+			}
+			.Details__More {
+				.myCarousel {
+					li > img {
+						width: 200px;
+					}
+				}
+			}
+		}
+
+	}
+
+	.ml__Tabs--Content {
+		clear: both;
+		.ul {
+			.list {
+				display: inline-block;
+				border-top: 1px solid #666666;
+				border-top-left-radius: 4px;
+				border-top-right-radius: 4px;
+				padding: 0.5em;
+			}
+			.select {
+				background: #FFF059;
+			}
+		}
+	}
+
+}
